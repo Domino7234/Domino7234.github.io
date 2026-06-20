@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Paperlogy";
+  src: url("./assets/fonts/Paperlogy-5Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: #f3f0e8;
   --surface: #fffdf8;
@@ -10,8 +18,8 @@
   --line: rgba(25, 59, 52, 0.14);
   --shadow: 0 20px 50px rgba(25, 59, 52, 0.12);
   --radius: 18px;
-  --sans: "Noto Sans KR", system-ui, sans-serif;
-  --serif: "Noto Serif KR", serif;
+  --sans: "Paperlogy", "Noto Sans KR", system-ui, sans-serif;
+  --serif: "Paperlogy", "Noto Serif KR", serif;
 }
 
 * {
@@ -157,6 +165,12 @@ a {
   text-align: center;
 }
 
+.hero-copy {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .hero-photo-wrap,
 .profile-image-frame {
   position: relative;
@@ -246,9 +260,14 @@ h1 {
   background: rgba(255, 255, 255, 0.07);
   color: rgba(255, 255, 255, 0.92);
   font-family: var(--serif);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   text-align: left;
+  width: 100%;
+  max-width: calc(100vw - 40px);
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
 }
 
 .keyword-row {
