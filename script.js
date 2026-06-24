@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  var sections = ["hero", "profile", "expertise", "services", "contact"];
+  var sections = ["hero", "services", "process", "profile", "contact"];
   function setActiveNav() {
     var current = "hero";
     sections.forEach(function (id) {

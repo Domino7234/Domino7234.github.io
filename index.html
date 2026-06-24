@@ -39,9 +39,9 @@
       </button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#hero">홈</a></li>
-        <li><a href="#profile">소개</a></li>
-        <li><a href="#expertise">역량</a></li>
         <li><a href="#services">서비스</a></li>
+        <li><a href="#process">프로세스</a></li>
+        <li><a href="#profile">대표 소개</a></li>
         <li><a href="#contact">연락처</a></li>
       </ul>
     </nav>
@@ -50,58 +50,54 @@
   <main id="main">
     <section class="hero" id="hero">
       <div class="hero-inner reveal">
-        <div class="hero-photo-wrap">
-          <img class="hero-photo" src="./assets/profile.jpg" alt="이민호 대표 프로필 사진" data-profile-image onerror="this.closest('.hero-photo-wrap').classList.add('photo-missing')">
-          <div class="photo-fallback" aria-hidden="true">MIN</div>
-        </div>
         <div class="hero-copy">
-          <p class="eyebrow">Digital Profile · MIN Consulting</p>
-          <h1>이 민 호</h1>
-          <p class="hero-title">대표 · 외식·식품 창업 컨설팅</p>
-          <p class="hero-location">경기 기반 현장 중심 컨설팅</p>
-          <p class="hero-message">아이디어를 사업으로,<br>사업을 브랜드로 성장시키는<br>외식·식품 창업 파트너</p>
-          <div class="keyword-row" aria-label="주요 키워드">
-            <span>외식창업컨설팅</span>
-            <span>식품창업컨설팅</span>
-            <span>메뉴개발</span>
-            <span>브랜드기획</span>
-          </div>
+          <p class="eyebrow">MIN Food Business Consulting</p>
+          <h1>외식·식품 창업을<br>실행 가능한 사업으로.</h1>
+          <p class="hero-title">메뉴 개발 · 브랜드 기획 · 사업계획 · 경영개선 컨설팅</p>
+          <p class="hero-message">아이디어 단계의 창업자부터 운영 개선이 필요한 소상공인까지, 현장 경험을 바탕으로 사업 모델과 브랜드 실행 구조를 함께 정리합니다.</p>
           <div class="button-row">
-            <a class="btn btn-primary" href="tel:01029657373">전화 걸기</a>
-            <a class="btn btn-outline" href="mailto:minho5310@daum.net?subject=MIN%20%EC%BB%A8%EC%84%A4%ED%8C%85%20%EB%AC%B8%EC%9D%98">이메일 문의</a>
-            <a class="btn btn-soft" href="./contact.vcf" download>연락처 저장</a>
+            <a class="btn btn-primary" href="tel:01029657373">상담 전화</a>
+            <a class="btn btn-outline" href="mailto:minho5310@daum.net?subject=MIN%20%EC%BB%A8%EC%84%A4%ED%8C%85%20%EB%AC%B8%EC%9D%98">메일 문의</a>
+            <a class="btn btn-soft" href="#services">서비스 보기</a>
           </div>
+        </div>
+        <div class="hero-panel" aria-label="컨설팅 핵심 영역">
+          <div class="panel-header">
+            <span>Consulting Brief</span>
+            <strong>MIN</strong>
+          </div>
+          <div class="panel-grid">
+            <div><span>01</span><b>창업 모델</b><p>아이템과 고객 구조 정리</p></div>
+            <div><span>02</span><b>메뉴·상품</b><p>판매 가능한 상품화 설계</p></div>
+            <div><span>03</span><b>브랜드</b><p>컨셉과 스토리 기획</p></div>
+            <div><span>04</span><b>문서화</b><p>사업계획서와 제안서 지원</p></div>
+          </div>
+          <p class="panel-note">경기 기반 · 외식/식품 창업 · 소상공인 경영개선</p>
         </div>
       </div>
     </section>
 
-    <section class="section profile-section reveal" id="profile">
+    <section class="section services-section reveal" id="services">
       <div class="section-inner">
-        <div class="profile-card">
-          <div class="profile-image-frame">
-            <img src="./assets/profile.jpg" alt="외식·식품 창업 컨설턴트 이민호 대표 프로필 사진" data-profile-image onerror="this.closest('.profile-image-frame').classList.add('photo-missing')">
-            <div class="photo-fallback small" aria-hidden="true">MIN</div>
-          </div>
-          <div>
-            <p class="section-label">Profile</p>
-            <h2>현장에서 시작해 브랜드 가치로 연결합니다.</h2>
-            <p>MIN 외식·식품 창업 컨설팅은 예비창업자와 소상공인이 아이템, 메뉴, 브랜드, 사업계획을 현실적인 실행 구조로 만들 수 있도록 돕습니다.</p>
-            <dl class="meta-list">
-              <div><dt>이름</dt><dd>이민호</dd></div>
-              <div><dt>직책</dt><dd>대표</dd></div>
-              <div><dt>활동 지역</dt><dd>경기</dd></div>
-              <div><dt>GitHub</dt><dd><a href="https://github.com/Domino7234" target="_blank" rel="noopener">Domino7234</a></dd></div>
-            </dl>
-          </div>
+        <p class="section-label">Services</p>
+        <h2>창업 전 검토부터 브랜드 실행까지 한 흐름으로 정리합니다.</h2>
+        <p class="section-guide">아이템, 메뉴, 브랜드, 문서, 운영 개선을 따로 보지 않고 실제 매장과 사업화 흐름에 맞춰 연결합니다.</p>
+        <div class="service-grid">
+          <article><span>01</span><h3>창업 모델 수립</h3><p>창업 아이템 발굴, 사업모델 수립, 고객 분석 및 마케팅 전략 설계</p></article>
+          <article><span>02</span><h3>메뉴·상품 개발</h3><p>메뉴 개발, 상품화 컨설팅, 외식·식품 창업 실무 교육</p></article>
+          <article><span>03</span><h3>브랜드 기획</h3><p>브랜드 컨셉, 브랜드 스토리, 로컬브랜드 개발 및 지역 자원 사업화</p></article>
+          <article><span>04</span><h3>사업화 문서 지원</h3><p>사업계획서, 제안서 작성, 지원사업 연계 및 사업화 자문</p></article>
+          <article><span>05</span><h3>경영개선 진단</h3><p>소상공인 경영개선, 매장 운영 진단, 실행 가능한 개선안 정리</p></article>
+          <article><span>06</span><h3>창업 멘토링</h3><p>지원사업 준비, 사업 방향 점검, 실행 우선순위 정리</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section reveal" id="expertise">
+    <section class="section process-section reveal" id="process">
       <div class="section-inner">
-        <p class="section-label">Expertise</p>
-        <h2>외식·식품 창업을 위한 핵심 역량</h2>
-        <p class="section-guide">카드를 눌러 세부 내용을 확인할 수 있습니다.</p>
+        <p class="section-label">Process</p>
+        <h2>상담은 짧게, 실행안은 구체적으로.</h2>
+        <p class="section-guide">막연한 아이디어를 바로 고치기보다, 현재 상황을 진단하고 실행 가능한 순서로 정리합니다.</p>
 
         <div class="accordion" data-accordion>
           <article class="acc-item open">
@@ -161,17 +157,21 @@
       </div>
     </section>
 
-    <section class="section services-section reveal" id="services">
+    <section class="section profile-section reveal" id="profile">
       <div class="section-inner">
-        <p class="section-label">Services</p>
-        <h2>제공 서비스</h2>
-        <p class="section-guide">창업 전 검토부터 메뉴, 브랜드, 문서, 지원사업 연계까지 한 흐름으로 정리합니다.</p>
-        <div class="service-grid">
-          <article><span>01</span><h3>창업 모델 수립</h3><p>창업 아이템 발굴, 사업모델 수립, 고객 분석 및 마케팅 전략 설계</p></article>
-          <article><span>02</span><h3>메뉴·상품 개발</h3><p>메뉴 개발, 상품화 컨설팅, 외식·식품 창업 실무 교육</p></article>
-          <article><span>03</span><h3>브랜드 기획</h3><p>브랜드 컨셉, 브랜드 스토리, 로컬브랜드 개발 및 지역 자원 사업화</p></article>
-          <article><span>04</span><h3>사업화 문서 지원</h3><p>사업계획서, 제안서 작성, 지원사업 연계 및 사업화 자문</p></article>
-          <article><span>05</span><h3>경영개선 진단</h3><p>소상공인 경영개선, 매장 운영 진단, 실행 가능한 개선안 정리</p></article>
+        <div class="profile-card">
+          <div class="profile-mark" aria-hidden="true">MIN</div>
+          <div>
+            <p class="section-label">Representative</p>
+            <h2>현장에서 시작해 브랜드 가치로 연결합니다.</h2>
+            <p>이민호 대표는 외식·식품 분야 창업 교육, 메뉴 개발, 브랜드 컨셉 기획, 사업계획서 작성, 소상공인 경영개선 컨설팅을 수행합니다.</p>
+            <dl class="meta-list">
+              <div><dt>대표</dt><dd>이민호</dd></div>
+              <div><dt>전문 분야</dt><dd>외식·식품 창업 컨설팅</dd></div>
+              <div><dt>활동 지역</dt><dd>경기</dd></div>
+              <div><dt>GitHub</dt><dd><a href="https://github.com/Domino7234" target="_blank" rel="noopener">Domino7234</a></dd></div>
+            </dl>
+          </div>
         </div>
       </div>
     </section>
