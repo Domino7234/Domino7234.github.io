@@ -92,7 +92,7 @@ a {
 
 .nav {
   width: min(100%, 920px);
-  height: 60px;
+  height: 56px;
   margin: 0 auto;
   padding: 0 18px;
   display: flex;
@@ -103,22 +103,25 @@ a {
 .nav-logo {
   text-decoration: none;
   font-family: var(--serif);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--surface);
   letter-spacing: 0;
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 7px;
+  font-size: 15px;
+  line-height: 1;
 }
 
 .nav-logo img {
-  width: 30px;
-  height: 30px;
-  padding: 3px;
+  width: 24px;
+  height: 24px;
+  padding: 2px;
   border: 1px solid rgba(198, 161, 91, 0.34);
   border-radius: 50%;
   background: var(--surface);
   object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .nav-toggle {
@@ -872,7 +875,14 @@ h1 {
   }
 
   .nav-logo {
-    font-size: 14px;
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .nav-logo img {
+    width: 22px;
+    height: 22px;
+    padding: 2px;
   }
 
   .hero {
