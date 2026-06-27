@@ -442,6 +442,7 @@ h1 {
 
 .button-row.center {
   margin-top: 22px;
+  justify-content: center;
 }
 
 .btn {
@@ -851,6 +852,14 @@ h1 {
 }
 
 .cta-card h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--surface);
+  text-align: center;
+}
+
+.cta-card .btn-outline.dark {
+  border-color: rgba(248, 251, 255, 0.28);
   color: var(--surface);
 }
 
